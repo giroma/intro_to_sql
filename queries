@@ -1,0 +1,19 @@
+SELECT * FROM robots WHERE(source = "Star Wars");
+
+SELECT COUNT (name)
+SELECT COUNT (name) FROM board_games WHERE min_players < 9 AND max_players < 9; FROM recipes WHERE vegatarian = false AND gluten_free = true;
+
+
+SELECT MAX(number_of_legs) FROM animals;
+
+SELECT MIN(mins_to_play) FROM board_games;
+
+SELECT name, mins_to_play FROM board_games ORDER BY mins_to_play LIMIT 1;
+
+SELECT name, minutes_required FROM recipes ORDER BY minutes_required DESC  LIMIT 1;
+
+SELECT * FROM robots WHERE name LIKE 'M%';
+
+SELECT COUNT (name) FROM board_games WHERE min_players < 9 AND max_players > 7;
+
+SELECT name FROM animals WHERE swimming = true AND egg_laying = true AND flying = false;
